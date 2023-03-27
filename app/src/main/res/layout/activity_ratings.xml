@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ratings"
+    android:background="@drawable/background">
+
+    <com.google.android.material.button.MaterialButton
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:text="Back"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/backbtnrating"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="35dp"
+        android:text="Ratings"
+        android:layout_marginTop="50dp"
+        android:id="@+id/ratingtext"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@id/backbtnrating"/>
+
+    <EditText
+        android:id = "@+id/inputproduct"
+        android:layout_below = "@id/ratingtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#30ffffff"
+        android:padding = "15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight = "20dp"
+        android:text=" Choose a product to give it a rating"
+        android:textSize = "20dp"
+        android:textColor="@color/white"
+        />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/ratingbar"
+        android:layout_below="@id/inputproduct"
+        android:layout_marginTop = "20dp"
+        android:layout_marginStart="20dp"
+        android:background="#30ffffff"
+        />
+    <TextView
+        android:id = "@+id/rateguide"
+        android:layout_below = "@id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Give a small description to base your rating"
+        android:textColor="@color/white"
+        android:textSize = "18dp"
+        android:layout_marginTop = "10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLow = "10dp"
+        />
+    <EditText
+        android:id = "@+id/descriptionrate"
+        android:layout_below = "@id/rateguide"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart = "20dp"
+        android:layout_marginEnd = "20dp"
+        android:background = "#30ffffff"
+    />
+
+    <com.google.android.material.button.MaterialButton
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:text="Confirm"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/confirmrating"
+        android:layout_below = "@id/descriptionrate"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

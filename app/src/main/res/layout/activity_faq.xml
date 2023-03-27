@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAQ">
+
+    <com.google.android.material.button.MaterialButton
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:text="Back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/backbtnfaq"/>
+
+    <TextView
+        android:id="@+id/faqtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backbtnfaq"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="center"
+        android:text="Frequent Asked Questions"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id = "@+id/faq1"
+        android:layout_below = "@id/faqtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text  = "1. What is this app?"
+        android:textSize = "20dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/faq1ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="This app helps you find the best mobile phones based on your requirements."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/faq2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq1ans"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom = "10dp"
+        android:text="2. Is the app free?"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/faq2ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Yes, the app is completely free to use."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/faq3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq2ans"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="3. How does the recommendation system work?"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/faq3ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="The recommendation system uses machine learning to suggest phones based on factors such as price, brand, RAM, SSD, and OS."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/faq4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq3ans"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="4. Can I trust the recommendations?"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/faq4ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq4"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Yes, the recommendations are based on data from a large number of mobile phones and have been tested and verified."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/faq5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq4ans"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="5. What if I have a specific requirement that is not listed?"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/faq5ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq5"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="You can use the filters to narrow down the search or contact support for more information."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
