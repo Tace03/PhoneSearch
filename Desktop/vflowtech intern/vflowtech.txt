@@ -1,0 +1,49 @@
+Project description
+
+web page:
+Use API
+DOcker system
+Database
+Postgres - CrateDB
+HTTP MQTT protocol
+
+IoT Edge: IoT gateway
+- Advantech, RPi
+- collect and send data to server
+
+VFlowTech IoT:
+mainly go in testing
+practice with dummy data
+
+
+
+
+connect to the pi:
+
+1. angry ip:
+- detect which device is in subnet
+- detect any RPi in range
+
+2. mobaxterm
+- create new ssh session 
+- connect to the Pi using IP
+- password: BGY9998!!
+
+HESS - Testing unit
+
+
+
+
+
+
+
+Appendix:
+
+linux commands:
+
+cp (-r) source_file (folder_dest) = copy whole file
+	-r = whole folder
+
+
+
+
