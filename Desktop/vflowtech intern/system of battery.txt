@@ -1,0 +1,6 @@
+1 battery 
+
+- switch
+- PLC (programmable logic controller)
+- advantech board/RPi (protocol: modbus)
+- put data to vflowtech.com

@@ -1,0 +1,4167 @@
+{
+    "asset_type": {
+        "description": null,
+        "id": 44,
+        "metadata": [
+            {
+                "data_type": "string",
+                "id": "cdd7bc19-bebd-4bf4-842a-4e7059e90b6d",
+                "name": "Serial Number",
+                "unit": null,
+                "uuid": "4cf53bb86b8511eba6000242ac1b000b"
+            },
+            {
+                "data_type": "string",
+                "id": "f8c79180-de8f-466e-a4c5-378d962c2b33",
+                "name": "Height",
+                "unit": null,
+                "uuid": "4cf540f46b8511eb945b0242ac1b000b"
+            },
+            {
+                "data_type": "string",
+                "id": "e225d048-72fe-4e3d-8e56-92d1f8df1b8d",
+                "name": "Width",
+                "unit": null,
+                "uuid": "4cf546266b8511eb82f30242ac1b000b"
+            },
+            {
+                "data_type": "string",
+                "id": "3cf9645a-7e0f-445c-9037-5a49445f040b",
+                "name": "Power Capacity",
+                "unit": null,
+                "uuid": "4cf54c206b8511eb9e6f0242ac1b000b"
+            }
+        ],
+        "name": "PowerCube",
+        "org_id": 3,
+        "parameters": [],
+        "project_id": 70,
+        "sensor_type_present": false,
+        "sensor_type_uuid": null,
+        "slug": "ZmNJOc-qrt-m",
+        "uuid": "4cf551666b8511ebba860242ac1b000b"
+    },
+    "asset_type_id": 44,
+    "creator_id": 20,
+    "description": "VFT Tuas 5kW - OLD",
+    "entities": [
+        {
+            "entities": [
+                {
+                    "data_type": "float",
+                    "id": "e5c33858-80bb-493f-b191-ab2f0c24bf4c",
+                    "name": "bcu1LeakageSensor",
+                    "type": "SensorParameter",
+                    "unit": "-",
+                    "uuid": "366dba5e979b11ebabe50242c0a8c00b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "94ec28f7-b47c-4941-952d-e0d155d06348",
+                    "name": "bcu1SmokeSensor",
+                    "type": "SensorParameter",
+                    "unit": "-",
+                    "uuid": "366dc120979b11eb9e800242c0a8c00b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "fa4ac029-1133-44aa-91e7-186d2c0fb9a6",
+                    "name": "pcs1ACOutStatus",
+                    "type": "SensorParameter",
+                    "unit": "-",
+                    "uuid": "366dc634979b11eba2900242c0a8c00b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "bfc190b1-a375-4d0e-82cf-83344fa09e75",
+                    "name": "pcs1FaultStatus",
+                    "type": "SensorParameter",
+                    "unit": "-",
+                    "uuid": "366dcaee979b11eba0470242c0a8c00b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "17b40f33-f7e2-4665-a22f-2cdfc5693d0e",
+                    "name": "pcs1FanSpeed",
+                    "type": "SensorParameter",
+                    "unit": "%",
+                    "uuid": "366dcf76979b11eb92a10242c0a8c00b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "8f7fb942-a979-403f-bd5c-cc97a4bca647",
+                    "name": "positive_stack_pressure_delta",
+                    "type": "SensorParameter",
+                    "unit": "-",
+                    "uuid": "366dd3a4979b11ebbc080242c0a8c00b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "0e366c48-f203-479f-be39-ba7e178efeab",
+                    "name": "primary_charging_relay",
+                    "type": "SensorParameter",
+                    "unit": "-",
+                    "uuid": "366dd840979b11eba99c0242c0a8c00b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6ce6fd09-11ec-418d-923e-d6c8ed746789",
+                    "name": "primary_discharge_relay",
+                    "type": "SensorParameter",
+                    "unit": "-",
+                    "uuid": "366ddc46979b11eb8a870242c0a8c00b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "715be405-39c1-4100-868d-85b331ce2d24",
+                    "name": "sensor_temp",
+                    "type": "SensorParameter",
+                    "unit": "C",
+                    "uuid": "366de0ec979b11ebb9ea0242c0a8c00b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6a668af1-e5e6-4215-b116-5f6cea02fd92",
+                    "name": "humidity",
+                    "type": "SensorParameter",
+                    "unit": "%",
+                    "uuid": "366de4f2979b11eb94180242c0a8c00b"
+                }
+            ],
+            "id": 339,
+            "metadata": [],
+            "name": "VSUN Sensor V2",
+            "parent_id": 195,
+            "parent_type": "Asset",
+            "sensor_type": {
+                "description": null,
+                "generated_by": "user",
+                "id": 54,
+                "metadata": [],
+                "name": "PowerCubePramsV1",
+                "org_id": 3,
+                "parameters": [
+                    {
+                        "data_type": "float",
+                        "id": "e5c33858-80bb-493f-b191-ab2f0c24bf4c",
+                        "name": "bcu1LeakageSensor",
+                        "unit": "-",
+                        "uuid": "366dba5e979b11ebabe50242c0a8c00b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "94ec28f7-b47c-4941-952d-e0d155d06348",
+                        "name": "bcu1SmokeSensor",
+                        "unit": "-",
+                        "uuid": "366dc120979b11eb9e800242c0a8c00b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "fa4ac029-1133-44aa-91e7-186d2c0fb9a6",
+                        "name": "pcs1ACOutStatus",
+                        "unit": "-",
+                        "uuid": "366dc634979b11eba2900242c0a8c00b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "bfc190b1-a375-4d0e-82cf-83344fa09e75",
+                        "name": "pcs1FaultStatus",
+                        "unit": "-",
+                        "uuid": "366dcaee979b11eba0470242c0a8c00b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "17b40f33-f7e2-4665-a22f-2cdfc5693d0e",
+                        "name": "pcs1FanSpeed",
+                        "unit": "%",
+                        "uuid": "366dcf76979b11eb92a10242c0a8c00b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "8f7fb942-a979-403f-bd5c-cc97a4bca647",
+                        "name": "positive_stack_pressure_delta",
+                        "unit": "-",
+                        "uuid": "366dd3a4979b11ebbc080242c0a8c00b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "0e366c48-f203-479f-be39-ba7e178efeab",
+                        "name": "primary_charging_relay",
+                        "unit": "-",
+                        "uuid": "366dd840979b11eba99c0242c0a8c00b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6ce6fd09-11ec-418d-923e-d6c8ed746789",
+                        "name": "primary_discharge_relay",
+                        "unit": "-",
+                        "uuid": "366ddc46979b11eb8a870242c0a8c00b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "715be405-39c1-4100-868d-85b331ce2d24",
+                        "name": "sensor_temp",
+                        "unit": "C",
+                        "uuid": "366de0ec979b11ebb9ea0242c0a8c00b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6a668af1-e5e6-4215-b116-5f6cea02fd92",
+                        "name": "humidity",
+                        "unit": "%",
+                        "uuid": "366de4f2979b11eb94180242c0a8c00b"
+                    }
+                ],
+                "project_id": 70,
+                "slug": "6-PCLL71WNqQ",
+                "uuid": "63ce991c8d3411eb9b970242c0a8c00b"
+            },
+            "sensor_type_id": 54,
+            "type": "Sensor"
+        },
+        {
+            "entities": [
+                {
+                    "data_type": "float",
+                    "id": "e87f1b50-7e15-4176-b1fb-71ea342b7d9a",
+                    "name": "bcu_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6caa06b8b11eb85bc0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "05efea46-9150-47b2-b4ff-4d32572d702f",
+                    "name": "bcu_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6d1a86b8b11eb89c90242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "19bd68bd-6d65-4fe2-9413-54fd576233a4",
+                    "name": "bcu_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6d7a26b8b11eb9b5e0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "9e09d922-fc8c-488c-81fe-1a47882e3507",
+                    "name": "bcu_state_of_charge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6dcb66b8b11eb8a8e0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "7dcae22d-c737-4670-b3c0-af83fbb55572",
+                    "name": "battery_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6e1166b8b11eb849d0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "538986a1-7d72-4dd7-b73d-eb34a570677d",
+                    "name": "bcu_OCV",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6e5a86b8b11eba3a70242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "9c7c443f-9557-4468-94d0-2172a5ea3125",
+                    "name": "bcu_pos_tank_temp",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6ea3a6b8b11eb89860242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "e779fd27-4822-4738-9485-ce8db6c7fbb7",
+                    "name": "bcu_neg-tank_temp",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6ee546b8b11eb88430242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "2c0ff2cd-594e-44aa-8fcb-8eb7ccb19506",
+                    "name": "pos_high level_float",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6f3546b8b11eb8c390242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6e43ffec-8b5f-460b-a120-59dcd3765f80",
+                    "name": "neg_high level_float",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6f78c6b8b11eb94b40242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "177f718d-d009-4b70-b0a5-3ff850d56fee",
+                    "name": "pos_low level_float",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f6fbec6b8b11eb98b00242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "f6234b3e-42ad-4b46-919b-2203eac8fed5",
+                    "name": "neg_low level_float",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f700ec6b8b11eb93030242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "1e2ebbf7-edc9-4d7e-a43b-c200e73057e7",
+                    "name": "pri_stack_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7051a6b8b11eb962f0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "d7ea8ee0-8b11-4afd-8ce2-0aa9a8319715",
+                    "name": "pri_stack_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7090c6b8b11eb9f200242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "462044e1-3472-4705-a948-8e400c98b072",
+                    "name": "pri_stack_pos_pressure",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f70eca6b8b11ebbd470242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "f6bb012b-b4fd-4b8f-8da9-7ddc65bc8a23",
+                    "name": "pri_stack_neg_pressure",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7133e6b8b11eba4130242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "b2456143-7995-4ea5-a0fb-329c67514eff",
+                    "name": "pri_stack_pressure_delta",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f717a86b8b11eba2df0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a35fadb6-6205-4bdf-97eb-de0df764c8fa",
+                    "name": "sec_stack_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7202c6b8b11eb8ecc0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6f9909ed-6849-44ac-b1cc-05ab172326ec",
+                    "name": "sec_stack_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7254a6b8b11eb937c0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "ad9c6854-b680-4c54-9d43-10295426c5f7",
+                    "name": "sec_stack_pos_pressure",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f729826b8b11eb94b80242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "139fce9b-6c4e-47b9-ba10-1e60c33ce648",
+                    "name": "sec_stack_neg_pressure",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f72d7e6b8b11ebaae60242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6bfda5ad-812d-4b6c-8627-9874148d9adb",
+                    "name": "sec_stack_pressure_delta",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f732386b8b11eb8f900242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "643689f5-c357-4728-9ea7-8f5b077711b2",
+                    "name": "pcs1_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f737106b8b11eb82a40242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "2e8babee-b82b-4606-ad69-7bdca053da00",
+                    "name": "pcs1_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f73c9c6b8b11eb95fc0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "d2892bf3-a9be-4715-b37b-b4b3ab9c3772",
+                    "name": "pcs1_reactive_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7444e6b8b11eb89f20242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "0a8b6faa-59cd-47bb-b461-bb5abba8f08b",
+                    "name": "pcs1_load_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f749626b8b11eba91b0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6f1cb360-a4c4-4ffa-86e4-71df1d1bde6f",
+                    "name": "pcs1_ac_supply_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f74e766b8b11eb8d800242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "5fbd5a15-1951-4c5b-806c-fe143d21151d",
+                    "name": "pcs2_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f754346b8b11eb947c0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "3cf91df9-23e0-423e-bb42-ed37533715e9",
+                    "name": "pcs2_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f758586b8b11ebb03d0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "9cbf0c4c-0678-4a43-8b5c-53c196f40e15",
+                    "name": "pcs2_reactive_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f75cea6b8b11ebb9b40242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "9ec9fc08-23e9-438f-a65d-f0f407c2cee9",
+                    "name": "pcs2_load_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f761866b8b11ebbe4b0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "e2b8237e-c598-4b38-96d9-35235ff72937",
+                    "name": "pcs2_ac_supply_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f765f06b8b11ebbe890242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "97a11028-381c-4caa-aafb-2f83619381d4",
+                    "name": "pcs3_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f76aa06b8b11eb92fe0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "14ee3b9e-0b9d-46c8-9ba8-89329f48306e",
+                    "name": "pcs3_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f770726b8b11eb954a0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "4e6e8c33-f10b-42ca-b4b2-194524fd99f4",
+                    "name": "pcs3_reactive_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f775366b8b11ebbf900242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "adc68211-9069-466d-a855-b45e0bcfe607",
+                    "name": "pcs3_load_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7793c6b8b11ebb0460242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "9f19886d-6f80-42c7-86d6-19973568fa47",
+                    "name": "pcs3_ac_supply_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f77d886b8b11eb92450242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "c6e407a1-36e7-47f8-8155-8eb52893786e",
+                    "name": "pri_stack_charge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f781f26b8b11eb8f500242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "06ebc941-5972-448e-9fab-ff00e7375470",
+                    "name": "pri_stack_discharge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f786e86b8b11eb8ec40242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "0cc517d5-7563-4035-ab99-8031b43f2374",
+                    "name": "pri_stack_positive_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f78c2e6b8b11eb8b9c0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "2070b77b-1da4-47d5-bb57-e12c8d845b90",
+                    "name": "pri_stack_negative_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7911a6b8b11ebb2440242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "b8a28ac8-3fc7-40ea-9dba-e4e90cd9b8d1",
+                    "name": "sec_stack_charge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7953e6b8b11ebb2590242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "97a2a9f7-1a2a-4eed-9f96-13eedc8ded08",
+                    "name": "sec_stack_discharge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f799946b8b11ebb0690242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "d8f980e4-e8e5-490f-8d96-f24769a140de",
+                    "name": "sec_stack_positive_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f79d726b8b11eba6540242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a4e3be4b-cda9-49e5-8d7c-e522331c7243",
+                    "name": "sec_stack_negative_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7a1966b8b11eb9c380242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "f9d8eff6-17f2-4287-922e-42d95bcbf624",
+                    "name": "bal_valve",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7a5ba6b8b11eba20b0242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "cddbb5ff-8024-4421-8b8d-a8b3e54d8115",
+                    "name": "pos_tank_valve",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7ac226b8b11eb84690242ac1b000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a5449f04-dd50-4f34-b59b-8db9cb65991c",
+                    "name": "neg_tank_valve",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "19f7b1a46b8b11eba6b50242ac1b000b"
+                }
+            ],
+            "id": 320,
+            "metadata": [],
+            "name": "VSUN Sensor V1",
+            "parent_id": 195,
+            "parent_type": "Asset",
+            "sensor_type": {
+                "description": null,
+                "generated_by": "user",
+                "id": 51,
+                "metadata": [],
+                "name": "PowerCubeParams",
+                "org_id": 3,
+                "parameters": [
+                    {
+                        "data_type": "float",
+                        "id": "e87f1b50-7e15-4176-b1fb-71ea342b7d9a",
+                        "name": "bcu_voltage",
+                        "unit": null,
+                        "uuid": "19f6caa06b8b11eb85bc0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "05efea46-9150-47b2-b4ff-4d32572d702f",
+                        "name": "bcu_current",
+                        "unit": null,
+                        "uuid": "19f6d1a86b8b11eb89c90242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "19bd68bd-6d65-4fe2-9413-54fd576233a4",
+                        "name": "bcu_power",
+                        "unit": null,
+                        "uuid": "19f6d7a26b8b11eb9b5e0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "9e09d922-fc8c-488c-81fe-1a47882e3507",
+                        "name": "bcu_state_of_charge",
+                        "unit": null,
+                        "uuid": "19f6dcb66b8b11eb8a8e0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "7dcae22d-c737-4670-b3c0-af83fbb55572",
+                        "name": "battery_voltage",
+                        "unit": null,
+                        "uuid": "19f6e1166b8b11eb849d0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "538986a1-7d72-4dd7-b73d-eb34a570677d",
+                        "name": "bcu_OCV",
+                        "unit": null,
+                        "uuid": "19f6e5a86b8b11eba3a70242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "9c7c443f-9557-4468-94d0-2172a5ea3125",
+                        "name": "bcu_pos_tank_temp",
+                        "unit": null,
+                        "uuid": "19f6ea3a6b8b11eb89860242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "e779fd27-4822-4738-9485-ce8db6c7fbb7",
+                        "name": "bcu_neg-tank_temp",
+                        "unit": null,
+                        "uuid": "19f6ee546b8b11eb88430242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "2c0ff2cd-594e-44aa-8fcb-8eb7ccb19506",
+                        "name": "pos_high level_float",
+                        "unit": null,
+                        "uuid": "19f6f3546b8b11eb8c390242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6e43ffec-8b5f-460b-a120-59dcd3765f80",
+                        "name": "neg_high level_float",
+                        "unit": null,
+                        "uuid": "19f6f78c6b8b11eb94b40242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "177f718d-d009-4b70-b0a5-3ff850d56fee",
+                        "name": "pos_low level_float",
+                        "unit": null,
+                        "uuid": "19f6fbec6b8b11eb98b00242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "f6234b3e-42ad-4b46-919b-2203eac8fed5",
+                        "name": "neg_low level_float",
+                        "unit": null,
+                        "uuid": "19f700ec6b8b11eb93030242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "1e2ebbf7-edc9-4d7e-a43b-c200e73057e7",
+                        "name": "pri_stack_voltage",
+                        "unit": null,
+                        "uuid": "19f7051a6b8b11eb962f0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "d7ea8ee0-8b11-4afd-8ce2-0aa9a8319715",
+                        "name": "pri_stack_current",
+                        "unit": null,
+                        "uuid": "19f7090c6b8b11eb9f200242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "462044e1-3472-4705-a948-8e400c98b072",
+                        "name": "pri_stack_pos_pressure",
+                        "unit": null,
+                        "uuid": "19f70eca6b8b11ebbd470242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "f6bb012b-b4fd-4b8f-8da9-7ddc65bc8a23",
+                        "name": "pri_stack_neg_pressure",
+                        "unit": null,
+                        "uuid": "19f7133e6b8b11eba4130242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "b2456143-7995-4ea5-a0fb-329c67514eff",
+                        "name": "pri_stack_pressure_delta",
+                        "unit": null,
+                        "uuid": "19f717a86b8b11eba2df0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a35fadb6-6205-4bdf-97eb-de0df764c8fa",
+                        "name": "sec_stack_voltage",
+                        "unit": null,
+                        "uuid": "19f7202c6b8b11eb8ecc0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6f9909ed-6849-44ac-b1cc-05ab172326ec",
+                        "name": "sec_stack_current",
+                        "unit": null,
+                        "uuid": "19f7254a6b8b11eb937c0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "ad9c6854-b680-4c54-9d43-10295426c5f7",
+                        "name": "sec_stack_pos_pressure",
+                        "unit": null,
+                        "uuid": "19f729826b8b11eb94b80242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "139fce9b-6c4e-47b9-ba10-1e60c33ce648",
+                        "name": "sec_stack_neg_pressure",
+                        "unit": null,
+                        "uuid": "19f72d7e6b8b11ebaae60242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6bfda5ad-812d-4b6c-8627-9874148d9adb",
+                        "name": "sec_stack_pressure_delta",
+                        "unit": null,
+                        "uuid": "19f732386b8b11eb8f900242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "643689f5-c357-4728-9ea7-8f5b077711b2",
+                        "name": "pcs1_voltage",
+                        "unit": null,
+                        "uuid": "19f737106b8b11eb82a40242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "2e8babee-b82b-4606-ad69-7bdca053da00",
+                        "name": "pcs1_current",
+                        "unit": null,
+                        "uuid": "19f73c9c6b8b11eb95fc0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "d2892bf3-a9be-4715-b37b-b4b3ab9c3772",
+                        "name": "pcs1_reactive_power",
+                        "unit": null,
+                        "uuid": "19f7444e6b8b11eb89f20242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "0a8b6faa-59cd-47bb-b461-bb5abba8f08b",
+                        "name": "pcs1_load_power",
+                        "unit": null,
+                        "uuid": "19f749626b8b11eba91b0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6f1cb360-a4c4-4ffa-86e4-71df1d1bde6f",
+                        "name": "pcs1_ac_supply_power",
+                        "unit": null,
+                        "uuid": "19f74e766b8b11eb8d800242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "5fbd5a15-1951-4c5b-806c-fe143d21151d",
+                        "name": "pcs2_voltage",
+                        "unit": null,
+                        "uuid": "19f754346b8b11eb947c0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "3cf91df9-23e0-423e-bb42-ed37533715e9",
+                        "name": "pcs2_current",
+                        "unit": null,
+                        "uuid": "19f758586b8b11ebb03d0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "9cbf0c4c-0678-4a43-8b5c-53c196f40e15",
+                        "name": "pcs2_reactive_power",
+                        "unit": null,
+                        "uuid": "19f75cea6b8b11ebb9b40242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "9ec9fc08-23e9-438f-a65d-f0f407c2cee9",
+                        "name": "pcs2_load_power",
+                        "unit": null,
+                        "uuid": "19f761866b8b11ebbe4b0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "e2b8237e-c598-4b38-96d9-35235ff72937",
+                        "name": "pcs2_ac_supply_power",
+                        "unit": null,
+                        "uuid": "19f765f06b8b11ebbe890242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "97a11028-381c-4caa-aafb-2f83619381d4",
+                        "name": "pcs3_voltage",
+                        "unit": null,
+                        "uuid": "19f76aa06b8b11eb92fe0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "14ee3b9e-0b9d-46c8-9ba8-89329f48306e",
+                        "name": "pcs3_current",
+                        "unit": null,
+                        "uuid": "19f770726b8b11eb954a0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "4e6e8c33-f10b-42ca-b4b2-194524fd99f4",
+                        "name": "pcs3_reactive_power",
+                        "unit": null,
+                        "uuid": "19f775366b8b11ebbf900242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "adc68211-9069-466d-a855-b45e0bcfe607",
+                        "name": "pcs3_load_power",
+                        "unit": null,
+                        "uuid": "19f7793c6b8b11ebb0460242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "9f19886d-6f80-42c7-86d6-19973568fa47",
+                        "name": "pcs3_ac_supply_power",
+                        "unit": null,
+                        "uuid": "19f77d886b8b11eb92450242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "c6e407a1-36e7-47f8-8155-8eb52893786e",
+                        "name": "pri_stack_charge",
+                        "unit": null,
+                        "uuid": "19f781f26b8b11eb8f500242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "06ebc941-5972-448e-9fab-ff00e7375470",
+                        "name": "pri_stack_discharge",
+                        "unit": null,
+                        "uuid": "19f786e86b8b11eb8ec40242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "0cc517d5-7563-4035-ab99-8031b43f2374",
+                        "name": "pri_stack_positive_pump",
+                        "unit": null,
+                        "uuid": "19f78c2e6b8b11eb8b9c0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "2070b77b-1da4-47d5-bb57-e12c8d845b90",
+                        "name": "pri_stack_negative_pump",
+                        "unit": null,
+                        "uuid": "19f7911a6b8b11ebb2440242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "b8a28ac8-3fc7-40ea-9dba-e4e90cd9b8d1",
+                        "name": "sec_stack_charge",
+                        "unit": null,
+                        "uuid": "19f7953e6b8b11ebb2590242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "97a2a9f7-1a2a-4eed-9f96-13eedc8ded08",
+                        "name": "sec_stack_discharge",
+                        "unit": null,
+                        "uuid": "19f799946b8b11ebb0690242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "d8f980e4-e8e5-490f-8d96-f24769a140de",
+                        "name": "sec_stack_positive_pump",
+                        "unit": null,
+                        "uuid": "19f79d726b8b11eba6540242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a4e3be4b-cda9-49e5-8d7c-e522331c7243",
+                        "name": "sec_stack_negative_pump",
+                        "unit": null,
+                        "uuid": "19f7a1966b8b11eb9c380242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "f9d8eff6-17f2-4287-922e-42d95bcbf624",
+                        "name": "bal_valve",
+                        "unit": null,
+                        "uuid": "19f7a5ba6b8b11eba20b0242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "cddbb5ff-8024-4421-8b8d-a8b3e54d8115",
+                        "name": "pos_tank_valve",
+                        "unit": null,
+                        "uuid": "19f7ac226b8b11eb84690242ac1b000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a5449f04-dd50-4f34-b59b-8db9cb65991c",
+                        "name": "neg_tank_valve",
+                        "unit": null,
+                        "uuid": "19f7b1a46b8b11eba6b50242ac1b000b"
+                    }
+                ],
+                "project_id": 70,
+                "slug": "SRdFiUJnLLZ8",
+                "uuid": "6f476d5e6b8911eb8d8b0242ac1b000b"
+            },
+            "sensor_type_id": 51,
+            "type": "Sensor"
+        },
+        {
+            "entities": [
+                {
+                    "data_type": "float",
+                    "id": "ae3d5a5f-402e-4c17-a0c5-c8e0ae39d1db",
+                    "name": "bcu1LeakageSensor",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe3c6eeaba11ebb5b80242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "5d25ac05-c7b4-44ea-92c6-0bf12a62e5f8",
+                    "name": "bcu1SmokeSensor",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe43eeeaba11ebae550242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "3e688fbd-1a24-401a-b543-ada21c502662",
+                    "name": "pcs1ACOutStatus",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe4984eaba11eb83960242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "51e36ee9-06cd-4a11-91dd-2cbad52d8723",
+                    "name": "pcs1FaultStatus",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe4e84eaba11ebbdfc0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "862fbb7c-fcf3-4508-92ae-8bd3d336f228",
+                    "name": "pcs1FanSpeed",
+                    "type": "SensorParameter",
+                    "unit": "%",
+                    "uuid": "0ffe52f8eaba11eb928e0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "879b19eb-0aa2-4377-a858-59b3c54d17f2",
+                    "name": "positive_stack_pressure_delta",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe5884eaba11eb88f80242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "b87aa760-e2aa-4737-9895-25e12f9b0f5e",
+                    "name": "primary_charging_relay",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe5d5ceaba11eb9c020242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "7c7fbdc6-6bc3-4096-9bf9-a686af2323cd",
+                    "name": "primary_discharge_relay",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe625ceaba11eb90110242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "607dfcdd-0617-4a4e-8872-da5ff19f32e3",
+                    "name": "sensor_temp",
+                    "type": "SensorParameter",
+                    "unit": "C",
+                    "uuid": "0ffe6784eaba11eb88bd0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "05ab2847-ba88-4b5a-963f-22bc2645f31b",
+                    "name": "humidity",
+                    "type": "SensorParameter",
+                    "unit": "%",
+                    "uuid": "0ffe6d60eaba11ebb0650242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "ae367a22-88fe-4805-bcf3-3aae28d19386",
+                    "name": "bcu_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe71f2eaba11eb9c640242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "75f61afb-bfb1-48b3-8e0c-32015698cf43",
+                    "name": "bcu_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe7af8eaba11ebb93f0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "5be7bd86-5ffa-4850-85c9-43fcb6daeda4",
+                    "name": "bcu_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe805ceaba11ebab510242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "0d8dc404-9df5-49c7-9b03-2a93c9d1bfeb",
+                    "name": "bcu_state_of_charge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe84f8eaba11ebb1e00242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "190ca122-d30d-48d4-9c1d-eb81fa77fe93",
+                    "name": "battery_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe893aeaba11eb99040242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6a96b552-258d-4c75-9639-3785d559232d",
+                    "name": "bcu_OCV",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe8d54eaba11eba2a00242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "bf11262a-c0cc-48f2-a836-c77b084a4ada",
+                    "name": "bcu_pos_tank_temp",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe925eeaba11eb9cf30242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "9ddca6f1-fcbd-460a-8bfc-77b0faab4a36",
+                    "name": "bcu_neg_tank_temp",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe9664eaba11eb82060242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "c641e5ee-5c6a-44f2-a0dc-48f8bdbbed66",
+                    "name": "pos_high_level_float",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe9aeceaba11eb99220242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "c70c398b-240b-476f-88d7-6bad697c447b",
+                    "name": "neg_high_level_float",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffe9f42eaba11ebb42a0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "4b94751b-7fb6-4160-a20f-c8f722dd4dae",
+                    "name": "pos_low_level_float",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffea3a2eaba11eb88fd0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "af0167f6-9a45-4ca9-84f4-78d0529958fe",
+                    "name": "neg_low_level_float",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffea7daeaba11ebb55c0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "072c915a-cc8c-4bab-afb4-28e5402173af",
+                    "name": "pri_stack_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffeac08eaba11eb8b990242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a4147496-7d21-4b6c-82c8-4c040547c4cc",
+                    "name": "pri_stack_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffeb00eeaba11ebbb530242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "1373d79f-d31d-43d5-8af4-9181c1a36894",
+                    "name": "pri_stack_pos_pressure",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffeb518eaba11ebb7e80242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "cd8ffe3d-d94b-459d-addc-8d2a9ba04511",
+                    "name": "pri_stack_neg_pressure",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffeb946eaba11eb9eb60242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a4630309-ee9e-4d27-bf0f-fa0e95ccaee7",
+                    "name": "pri_stack_pressure_delta",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffebd74eaba11ebb9380242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "2e433985-84ea-4cde-94e8-8c13e1e46371",
+                    "name": "sec_stack_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffec224eaba11ebba370242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "367ca577-e117-4bd1-a1e8-f9827787ce63",
+                    "name": "sec_stack_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffec68eeaba11eb97dd0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "2cf85a5a-e7d3-4d8f-b331-071a33ccce86",
+                    "name": "sec_stack_pos_pressure",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffecab2eaba11ebab760242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a8f1ed0c-70f4-427b-bd02-1ae5083309cc",
+                    "name": "sec_stack_neg_pressure",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffeceaeeaba11eb9aa30242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "08525196-b269-4b4e-af60-66aec837449f",
+                    "name": "sec_stack_pressure_delta",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffed2e6eaba11eb96240242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "008b29d9-2983-4458-87cf-6743165b6c0f",
+                    "name": "pcs1_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffed746eaba11eba28f0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "080b3604-2c4a-4715-bb13-e1e71da00f37",
+                    "name": "pcs1_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffedbeceaba11ebbdd50242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "af0331ff-231a-4281-a24b-f9331aa53fdf",
+                    "name": "pcs1_reactive_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffee010eaba11eba7e90242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a4531910-ec81-4ae1-a4a6-92e83e022f25",
+                    "name": "pcs1_load_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffee86ceaba11eb87930242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "20201095-6084-4bba-b900-655b5f968636",
+                    "name": "pcs1_ac_supply_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffeeedeeaba11eb9e910242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "1f1e4d8c-9b34-4778-b443-5a648eda3711",
+                    "name": "pcs2_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffef7a8eaba11eb88120242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "52ae13fc-a32f-4439-89d5-2a9f4c0d224c",
+                    "name": "pcs2_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0ffeff78eaba11ebba9a0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "ac11b7bf-1632-4e51-92d7-d512fe70ce45",
+                    "name": "pcs2_reactive_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff05f4eaba11ebb69a0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "11fc3737-c690-4d88-a9f0-9a28eaa088dd",
+                    "name": "pcs2_load_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff0aeaeaba11eb8cfe0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "d756e553-9452-49ee-8bb1-f2f7af144f2e",
+                    "name": "pcs2_ac_supply_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff1030eaba11ebab7a0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "710a27c1-4089-4368-892e-cf76ee232002",
+                    "name": "pcs3_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff1440eaba11eba6ac0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "f7505a93-e045-4228-9097-49d615e0f696",
+                    "name": "pcs3_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff183ceaba11eb8d900242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "c41ea302-b69c-4487-8e37-d7eb50abd522",
+                    "name": "pcs3_reactive_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff1c56eaba11eb8d780242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "94eb19cd-4d3c-400e-b5bf-8772fbc27524",
+                    "name": "pcs3_load_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff20c0eaba11ebaf6b0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a13f0e0a-4deb-488b-aafa-3dac712fb518",
+                    "name": "pcs3_ac_supply_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff24daeaba11ebbf790242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "06669b60-5548-4278-9b02-b9cf3de86f2e",
+                    "name": "pri_stack_charge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff28f4eaba11ebb69f0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "5e60a0ce-427e-4b81-a7d5-10a4228a7438",
+                    "name": "pri_stack_discharge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff2cfaeaba11eb9cb30242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "8bc5ac8a-3312-4119-bcc2-5695e6901995",
+                    "name": "pri_stack_positive_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff3146eaba11ebb8710242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "34052220-9760-4b8e-9fd4-9c239d5a6ba5",
+                    "name": "pri_stack_negative_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff35d8eaba11eb89b10242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "18844238-ead8-409c-b181-a2b4aedc9656",
+                    "name": "sec_stack_charge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff39fceaba11eb8a3f0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "15b5ad72-ae57-4807-b970-694ad6cce1f5",
+                    "name": "sec_stack_discharge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff3df8eaba11ebabfb0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "90b006cd-2520-4b05-a0ed-68fa0788f68a",
+                    "name": "sec_stack_positive_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff41eaeaba11eb9c040242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "dece5b37-11f9-4726-beee-ea0bdc12919a",
+                    "name": "sec_stack_negative_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff464aeaba11ebb3c90242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "46932ca1-88c9-4f6f-926a-6dc0beea46ee",
+                    "name": "bal_valve",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff4a6eeaba11eba70c0242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "7addfd24-07ec-4e53-bba5-9ffe1b86f0fe",
+                    "name": "pos_tank_valve",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff4e74eaba11eb8c310242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "09e50565-31f7-4b25-abba-1f3a74311982",
+                    "name": "neg_tank_value",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "0fff5284eaba11ebae220242ac1d000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "07d76df3-232d-4bbe-bbbd-0d6c5f770f40",
+                    "name": "pcs1_ac_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "8adfbe1e5c0e11ed94e40242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "83777b09-4708-42a7-9278-c192b49b9db0",
+                    "name": "dc_main_contactor",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "a67ca7f25c1011ed9f090242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6d4226de-8701-41f0-bf3c-b18c8f430170",
+                    "name": "pre_charge_relay",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "a67cb0445c1011ed92a00242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "7a860f98-90a9-4863-b134-b888daa0d592",
+                    "name": "ac_fan_coil1",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "a67cb7065c1011edbfde0242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "948cc90b-f1f1-4e8d-8146-32424d2b879f",
+                    "name": "fluid_fan",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "a67cbe905c1011edb05e0242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "e3271172-cc4b-480c-be70-28e2513dc087",
+                    "name": "dcdb_fan",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "a67cc4125c1011ed8ece0242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "c4c4ae7f-0dac-4819-a034-a8ec5da5baa8",
+                    "name": "stk_contactor1",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "a67cc9805c1011ed85e20242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "80844854-56cc-4552-8b75-bd64cc97da6a",
+                    "name": "stk_contactor2",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "a67cceb25c1011ed95c00242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "f61c16b1-82c3-488a-a8e4-2d5e22137fb1",
+                    "name": "pcs1InvFreq",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "a67cd4025c1011ed88b60242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "e2bbc0a8-a951-4e7a-b1b7-6d0397b4b2a1",
+                    "name": "bcu_leakage_sensor2",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "ba2520405c1011ed80660242c0a8500c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "b4700d56-617d-4947-ab92-959f52159321",
+                    "name": "ems_error_code",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "4cb08b52697211ed8c910242c0a8c00c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "7a691212-d581-42bf-97dc-dfe615256872",
+                    "name": "modbus_status",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "4cb09688697211ed9cc10242c0a8c00c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "57b7b601-7a9f-48a6-9efd-fb307c9a5973",
+                    "name": "pcs2_dc_inverter_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "eda3b2026a1011eda7440242c0a8c00c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "fe9b88b3-70c4-471c-a239-fb08d72b5509",
+                    "name": "pcs3_dc_inverter_power",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "eda3b9dc6a1011ed89930242c0a8c00c"
+                },
+                {
+                    "data_type": "float",
+                    "id": "d4b3d175-db3f-436e-9caf-7213c411a942",
+                    "name": "flt_ppfs",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "ea6d7ee8ea3e11edb1710242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "f140c116-c1dd-44a9-9801-2a9609bb33e5",
+                    "name": "flt_pnfs",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c1090ea4911edad650242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "b42e65b8-21d4-456b-bad2-be1eef8cc7d0",
+                    "name": "flt_spfs",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c1946ea4911ed86730242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "848f4352-cca0-4fe5-ab20-925b0e6e2962",
+                    "name": "flt_snfs",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c2314ea4911ed80d80242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "be369485-06e4-49f1-89aa-0e510d3b9cca",
+                    "name": "flt_dpfs",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c2ac6ea4911edb7300242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "4613c52e-4045-45ce-96cc-8b0e8548f665",
+                    "name": "flt_dnfs",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c37b4ea4911eda1f10242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "e02ce549-3ce1-465c-9de3-56065d7a6f0a",
+                    "name": "smoke_sensor2",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c41e6ea4911ed985c0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "13d17611-20d5-4765-a828-d63435c823f2",
+                    "name": "k3_bkup_sys",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c4902ea4911ed93c80242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "14e7e558-9847-4709-b840-a841acd7c941",
+                    "name": "k4_pri_pump_fb",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c50c8ea4911ed991d0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "c81b92a7-9d5f-4bdc-8179-4c3811bc36ed",
+                    "name": "k6_sec_pump_fb",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c58b6ea4911edb7020242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "050bef80-c5a2-47bd-8792-b57a5ebb3804",
+                    "name": "k8_in_out_sfb",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c6022ea4911edbd920242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "d42c99ae-bc55-467c-b5ec-a817bccc502d",
+                    "name": "k9_fan_light",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c6766ea4911ed90980242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "c9adf4ef-ceb8-4f89-8e8a-e13998f2927d",
+                    "name": "k10_drain_fb",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38c7166ea4911edb5b40242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "d204e1ae-78a8-49e6-9645-27038b86f800",
+                    "name": "k13_chiller",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d318cea4911ed94cd0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "17230202-7e59-49ba-8fc0-412c45884e55",
+                    "name": "level_sensor_pos",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d3a06ea4911ed880b0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "af61a97a-0f74-4622-ad64-65ce61d537e2",
+                    "name": "level_sensor_neg",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d426cea4911ed84100242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a71248d5-af68-43b8-b448-c1101034648a",
+                    "name": "bcu_hydrogen_sensor",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d49ecea4911ed9ba70242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "74974847-7639-4fe4-a29f-a0e0e2949f65",
+                    "name": "bcu_ocv_2",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d5194ea4911edb4370242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "45c226bd-0a1d-445e-820e-770dc8ae5541",
+                    "name": "backup_sys",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d59a0ea4911eda2a90242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "8200aaa2-5b1b-4038-bd27-016ac2310f2a",
+                    "name": "primary_positive_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d61b6ea4911ed85f70242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "e1e9df0c-ad3c-4dd1-93ac-44f95f07a172",
+                    "name": "primary_negative_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d6cf6ea4911edadd70242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6b78f421-9d43-4a4b-bc39-c321bdb2e04b",
+                    "name": "secondary_positive_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d74daea4911ed9d650242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "4dc24861-4607-406b-bcb2-7ad340f37779",
+                    "name": "secondary_negative_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d7c1eea4911eda1f80242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "e4cc4a8c-db1d-484e-8de8-4af3baea2ee2",
+                    "name": "in_out_sensor_power_sup",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d82e0ea4911eda09d0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "1c6b9d82-1daa-4701-9a53-c839de6081eb",
+                    "name": "pri_stack_cluster",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d8970ea4911ed9de90242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "7be3b919-28fd-4cc8-8888-a3cbb1645056",
+                    "name": "sec_stack_cluster",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d933eea4911ed95ba0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "9477c5c9-2f8a-4c99-98da-2a0aa75c6b37",
+                    "name": "actuator_valve_1",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38d9ba4ea4911edbd6c0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a2489ae2-9424-41bc-9b71-5d8db37bd286",
+                    "name": "actuator_valve_2",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38da32eea4911edbe990242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "3ca99b27-67d1-4a81-8303-813a8e1368ba",
+                    "name": "actuator_valve_3",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38daa72ea4911ed9a250242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "9a9eaeb6-dc05-40a9-bb33-1f3c3d9584bf",
+                    "name": "actuator_valve_4",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38db224ea4911ed8ed20242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "200a68a7-8a62-4341-ba39-8ca2428bfe6d",
+                    "name": "actuator_valve_5",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38db90eea4911eda8830242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a36f7a8c-3a2f-4a69-bb9e-310a558464c4",
+                    "name": "actuator_valve_6",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38dc142ea4911edab8d0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "a344eec4-6c47-4b8f-bd5f-1313302b2dbd",
+                    "name": "fan_light",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38dc872ea4911ed84840242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "4216f9c6-fa1c-4b4f-bd7d-e7919fef4549",
+                    "name": "drain_pump",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38dcf70ea4911ed9ac40242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "1fa0ce5f-5fc3-4e2d-af01-90204bd52f61",
+                    "name": "chiller",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "c38dd6f0ea4911edb77d0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "dba5abb7-2daa-48f7-8b7d-de3d7f95a271",
+                    "name": "state_of_charge",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "f239ab38ea4d11ed96600242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "2b68d49a-ee23-4a7f-90cd-634ffc2381bc",
+                    "name": "pcs1_dc_volts",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb559e24ea5311ed8e6c0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "b1f09c6b-9bd5-4fdc-97b0-094845159881",
+                    "name": "pcs1_dc_batt_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55a3ecea5311edb1830242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "3c02d401-405c-4136-82b4-5f64031faa46",
+                    "name": "pcs_st_2",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55a89cea5311ed85fb0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "b0344ea5-4cd4-46d6-8fbd-e523da6f2266",
+                    "name": "pcs_st_1",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55ad06ea5311eda4dc0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "bf88a431-78b3-4341-a7b1-fa4a4c3dd4eb",
+                    "name": "react_pow_set",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55b1d4ea5311ed8c7a0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "514ba1ac-90fa-400c-b548-a25f981dde27",
+                    "name": "act_pow_set",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55b602ea5311edb71b0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "2048741a-a60c-49c1-840d-8f624e80f2c9",
+                    "name": "ems_status",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55b9f4ea5311ed931b0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "66000920-781f-4d6b-b546-8ae7e8361d14",
+                    "name": "lvdc_current",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55be0eea5311eda7cd0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "3f5cd41e-04d8-4895-9096-afa6286e1db7",
+                    "name": "lvdc_voltage",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55c232ea5311edb8d50242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "d6b09afb-3025-4c18-ad53-63a1e773a47d",
+                    "name": "battery_ready",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55c642ea5311edb42b0242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "49472e7e-6d12-481c-96db-ac3510d5027d",
+                    "name": "system_mode",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "fb55ca52ea5311eda3240242ac15000d"
+                },
+                {
+                    "data_type": "float",
+                    "id": "9d0f16c0-35e8-41be-af16-9f4df39d3b7d",
+                    "name": "rebalancing_valve",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "24159c60ea5411edbc2a0242ac15000d"
+                }
+            ],
+            "id": 957,
+            "metadata": [],
+            "name": "5kW_Unit0_Sensors",
+            "parent_id": 195,
+            "parent_type": "Asset",
+            "sensor_type": {
+                "description": null,
+                "generated_by": "user",
+                "id": 77,
+                "metadata": [],
+                "name": "VSUN Unit 2 BCU",
+                "org_id": 3,
+                "parameters": [
+                    {
+                        "data_type": "float",
+                        "id": "ae3d5a5f-402e-4c17-a0c5-c8e0ae39d1db",
+                        "name": "bcu1LeakageSensor",
+                        "unit": null,
+                        "uuid": "0ffe3c6eeaba11ebb5b80242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "5d25ac05-c7b4-44ea-92c6-0bf12a62e5f8",
+                        "name": "bcu1SmokeSensor",
+                        "unit": null,
+                        "uuid": "0ffe43eeeaba11ebae550242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "3e688fbd-1a24-401a-b543-ada21c502662",
+                        "name": "pcs1ACOutStatus",
+                        "unit": null,
+                        "uuid": "0ffe4984eaba11eb83960242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "51e36ee9-06cd-4a11-91dd-2cbad52d8723",
+                        "name": "pcs1FaultStatus",
+                        "unit": null,
+                        "uuid": "0ffe4e84eaba11ebbdfc0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "862fbb7c-fcf3-4508-92ae-8bd3d336f228",
+                        "name": "pcs1FanSpeed",
+                        "unit": "%",
+                        "uuid": "0ffe52f8eaba11eb928e0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "879b19eb-0aa2-4377-a858-59b3c54d17f2",
+                        "name": "positive_stack_pressure_delta",
+                        "unit": null,
+                        "uuid": "0ffe5884eaba11eb88f80242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "b87aa760-e2aa-4737-9895-25e12f9b0f5e",
+                        "name": "primary_charging_relay",
+                        "unit": null,
+                        "uuid": "0ffe5d5ceaba11eb9c020242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "7c7fbdc6-6bc3-4096-9bf9-a686af2323cd",
+                        "name": "primary_discharge_relay",
+                        "unit": null,
+                        "uuid": "0ffe625ceaba11eb90110242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "607dfcdd-0617-4a4e-8872-da5ff19f32e3",
+                        "name": "sensor_temp",
+                        "unit": "C",
+                        "uuid": "0ffe6784eaba11eb88bd0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "05ab2847-ba88-4b5a-963f-22bc2645f31b",
+                        "name": "humidity",
+                        "unit": "%",
+                        "uuid": "0ffe6d60eaba11ebb0650242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "ae367a22-88fe-4805-bcf3-3aae28d19386",
+                        "name": "bcu_voltage",
+                        "unit": null,
+                        "uuid": "0ffe71f2eaba11eb9c640242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "75f61afb-bfb1-48b3-8e0c-32015698cf43",
+                        "name": "bcu_current",
+                        "unit": null,
+                        "uuid": "0ffe7af8eaba11ebb93f0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "5be7bd86-5ffa-4850-85c9-43fcb6daeda4",
+                        "name": "bcu_power",
+                        "unit": null,
+                        "uuid": "0ffe805ceaba11ebab510242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "0d8dc404-9df5-49c7-9b03-2a93c9d1bfeb",
+                        "name": "bcu_state_of_charge",
+                        "unit": null,
+                        "uuid": "0ffe84f8eaba11ebb1e00242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "190ca122-d30d-48d4-9c1d-eb81fa77fe93",
+                        "name": "battery_voltage",
+                        "unit": null,
+                        "uuid": "0ffe893aeaba11eb99040242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6a96b552-258d-4c75-9639-3785d559232d",
+                        "name": "bcu_OCV",
+                        "unit": null,
+                        "uuid": "0ffe8d54eaba11eba2a00242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "bf11262a-c0cc-48f2-a836-c77b084a4ada",
+                        "name": "bcu_pos_tank_temp",
+                        "unit": null,
+                        "uuid": "0ffe925eeaba11eb9cf30242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "9ddca6f1-fcbd-460a-8bfc-77b0faab4a36",
+                        "name": "bcu_neg_tank_temp",
+                        "unit": null,
+                        "uuid": "0ffe9664eaba11eb82060242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "c641e5ee-5c6a-44f2-a0dc-48f8bdbbed66",
+                        "name": "pos_high_level_float",
+                        "unit": null,
+                        "uuid": "0ffe9aeceaba11eb99220242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "c70c398b-240b-476f-88d7-6bad697c447b",
+                        "name": "neg_high_level_float",
+                        "unit": null,
+                        "uuid": "0ffe9f42eaba11ebb42a0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "4b94751b-7fb6-4160-a20f-c8f722dd4dae",
+                        "name": "pos_low_level_float",
+                        "unit": null,
+                        "uuid": "0ffea3a2eaba11eb88fd0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "af0167f6-9a45-4ca9-84f4-78d0529958fe",
+                        "name": "neg_low_level_float",
+                        "unit": null,
+                        "uuid": "0ffea7daeaba11ebb55c0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "072c915a-cc8c-4bab-afb4-28e5402173af",
+                        "name": "pri_stack_voltage",
+                        "unit": null,
+                        "uuid": "0ffeac08eaba11eb8b990242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a4147496-7d21-4b6c-82c8-4c040547c4cc",
+                        "name": "pri_stack_current",
+                        "unit": null,
+                        "uuid": "0ffeb00eeaba11ebbb530242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "1373d79f-d31d-43d5-8af4-9181c1a36894",
+                        "name": "pri_stack_pos_pressure",
+                        "unit": null,
+                        "uuid": "0ffeb518eaba11ebb7e80242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "cd8ffe3d-d94b-459d-addc-8d2a9ba04511",
+                        "name": "pri_stack_neg_pressure",
+                        "unit": null,
+                        "uuid": "0ffeb946eaba11eb9eb60242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a4630309-ee9e-4d27-bf0f-fa0e95ccaee7",
+                        "name": "pri_stack_pressure_delta",
+                        "unit": null,
+                        "uuid": "0ffebd74eaba11ebb9380242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "2e433985-84ea-4cde-94e8-8c13e1e46371",
+                        "name": "sec_stack_voltage",
+                        "unit": null,
+                        "uuid": "0ffec224eaba11ebba370242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "367ca577-e117-4bd1-a1e8-f9827787ce63",
+                        "name": "sec_stack_current",
+                        "unit": null,
+                        "uuid": "0ffec68eeaba11eb97dd0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "2cf85a5a-e7d3-4d8f-b331-071a33ccce86",
+                        "name": "sec_stack_pos_pressure",
+                        "unit": null,
+                        "uuid": "0ffecab2eaba11ebab760242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a8f1ed0c-70f4-427b-bd02-1ae5083309cc",
+                        "name": "sec_stack_neg_pressure",
+                        "unit": null,
+                        "uuid": "0ffeceaeeaba11eb9aa30242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "08525196-b269-4b4e-af60-66aec837449f",
+                        "name": "sec_stack_pressure_delta",
+                        "unit": null,
+                        "uuid": "0ffed2e6eaba11eb96240242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "008b29d9-2983-4458-87cf-6743165b6c0f",
+                        "name": "pcs1_voltage",
+                        "unit": null,
+                        "uuid": "0ffed746eaba11eba28f0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "080b3604-2c4a-4715-bb13-e1e71da00f37",
+                        "name": "pcs1_current",
+                        "unit": null,
+                        "uuid": "0ffedbeceaba11ebbdd50242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "af0331ff-231a-4281-a24b-f9331aa53fdf",
+                        "name": "pcs1_reactive_power",
+                        "unit": null,
+                        "uuid": "0ffee010eaba11eba7e90242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a4531910-ec81-4ae1-a4a6-92e83e022f25",
+                        "name": "pcs1_load_power",
+                        "unit": null,
+                        "uuid": "0ffee86ceaba11eb87930242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "20201095-6084-4bba-b900-655b5f968636",
+                        "name": "pcs1_ac_supply_power",
+                        "unit": null,
+                        "uuid": "0ffeeedeeaba11eb9e910242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "1f1e4d8c-9b34-4778-b443-5a648eda3711",
+                        "name": "pcs2_voltage",
+                        "unit": null,
+                        "uuid": "0ffef7a8eaba11eb88120242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "52ae13fc-a32f-4439-89d5-2a9f4c0d224c",
+                        "name": "pcs2_current",
+                        "unit": null,
+                        "uuid": "0ffeff78eaba11ebba9a0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "ac11b7bf-1632-4e51-92d7-d512fe70ce45",
+                        "name": "pcs2_reactive_power",
+                        "unit": null,
+                        "uuid": "0fff05f4eaba11ebb69a0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "11fc3737-c690-4d88-a9f0-9a28eaa088dd",
+                        "name": "pcs2_load_power",
+                        "unit": null,
+                        "uuid": "0fff0aeaeaba11eb8cfe0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "d756e553-9452-49ee-8bb1-f2f7af144f2e",
+                        "name": "pcs2_ac_supply_power",
+                        "unit": null,
+                        "uuid": "0fff1030eaba11ebab7a0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "710a27c1-4089-4368-892e-cf76ee232002",
+                        "name": "pcs3_voltage",
+                        "unit": null,
+                        "uuid": "0fff1440eaba11eba6ac0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "f7505a93-e045-4228-9097-49d615e0f696",
+                        "name": "pcs3_current",
+                        "unit": null,
+                        "uuid": "0fff183ceaba11eb8d900242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "c41ea302-b69c-4487-8e37-d7eb50abd522",
+                        "name": "pcs3_reactive_power",
+                        "unit": null,
+                        "uuid": "0fff1c56eaba11eb8d780242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "94eb19cd-4d3c-400e-b5bf-8772fbc27524",
+                        "name": "pcs3_load_power",
+                        "unit": null,
+                        "uuid": "0fff20c0eaba11ebaf6b0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a13f0e0a-4deb-488b-aafa-3dac712fb518",
+                        "name": "pcs3_ac_supply_power",
+                        "unit": null,
+                        "uuid": "0fff24daeaba11ebbf790242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "06669b60-5548-4278-9b02-b9cf3de86f2e",
+                        "name": "pri_stack_charge",
+                        "unit": null,
+                        "uuid": "0fff28f4eaba11ebb69f0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "5e60a0ce-427e-4b81-a7d5-10a4228a7438",
+                        "name": "pri_stack_discharge",
+                        "unit": null,
+                        "uuid": "0fff2cfaeaba11eb9cb30242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "8bc5ac8a-3312-4119-bcc2-5695e6901995",
+                        "name": "pri_stack_positive_pump",
+                        "unit": null,
+                        "uuid": "0fff3146eaba11ebb8710242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "34052220-9760-4b8e-9fd4-9c239d5a6ba5",
+                        "name": "pri_stack_negative_pump",
+                        "unit": null,
+                        "uuid": "0fff35d8eaba11eb89b10242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "18844238-ead8-409c-b181-a2b4aedc9656",
+                        "name": "sec_stack_charge",
+                        "unit": null,
+                        "uuid": "0fff39fceaba11eb8a3f0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "15b5ad72-ae57-4807-b970-694ad6cce1f5",
+                        "name": "sec_stack_discharge",
+                        "unit": null,
+                        "uuid": "0fff3df8eaba11ebabfb0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "90b006cd-2520-4b05-a0ed-68fa0788f68a",
+                        "name": "sec_stack_positive_pump",
+                        "unit": null,
+                        "uuid": "0fff41eaeaba11eb9c040242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "dece5b37-11f9-4726-beee-ea0bdc12919a",
+                        "name": "sec_stack_negative_pump",
+                        "unit": null,
+                        "uuid": "0fff464aeaba11ebb3c90242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "46932ca1-88c9-4f6f-926a-6dc0beea46ee",
+                        "name": "bal_valve",
+                        "unit": null,
+                        "uuid": "0fff4a6eeaba11eba70c0242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "7addfd24-07ec-4e53-bba5-9ffe1b86f0fe",
+                        "name": "pos_tank_valve",
+                        "unit": null,
+                        "uuid": "0fff4e74eaba11eb8c310242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "09e50565-31f7-4b25-abba-1f3a74311982",
+                        "name": "neg_tank_value",
+                        "unit": null,
+                        "uuid": "0fff5284eaba11ebae220242ac1d000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "07d76df3-232d-4bbe-bbbd-0d6c5f770f40",
+                        "name": "pcs1_ac_power",
+                        "unit": null,
+                        "uuid": "8adfbe1e5c0e11ed94e40242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "83777b09-4708-42a7-9278-c192b49b9db0",
+                        "name": "dc_main_contactor",
+                        "unit": null,
+                        "uuid": "a67ca7f25c1011ed9f090242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6d4226de-8701-41f0-bf3c-b18c8f430170",
+                        "name": "pre_charge_relay",
+                        "unit": null,
+                        "uuid": "a67cb0445c1011ed92a00242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "7a860f98-90a9-4863-b134-b888daa0d592",
+                        "name": "ac_fan_coil1",
+                        "unit": null,
+                        "uuid": "a67cb7065c1011edbfde0242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "948cc90b-f1f1-4e8d-8146-32424d2b879f",
+                        "name": "fluid_fan",
+                        "unit": null,
+                        "uuid": "a67cbe905c1011edb05e0242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "e3271172-cc4b-480c-be70-28e2513dc087",
+                        "name": "dcdb_fan",
+                        "unit": null,
+                        "uuid": "a67cc4125c1011ed8ece0242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "c4c4ae7f-0dac-4819-a034-a8ec5da5baa8",
+                        "name": "stk_contactor1",
+                        "unit": null,
+                        "uuid": "a67cc9805c1011ed85e20242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "80844854-56cc-4552-8b75-bd64cc97da6a",
+                        "name": "stk_contactor2",
+                        "unit": null,
+                        "uuid": "a67cceb25c1011ed95c00242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "f61c16b1-82c3-488a-a8e4-2d5e22137fb1",
+                        "name": "pcs1InvFreq",
+                        "unit": null,
+                        "uuid": "a67cd4025c1011ed88b60242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "e2bbc0a8-a951-4e7a-b1b7-6d0397b4b2a1",
+                        "name": "bcu_leakage_sensor2",
+                        "unit": null,
+                        "uuid": "ba2520405c1011ed80660242c0a8500c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "b4700d56-617d-4947-ab92-959f52159321",
+                        "name": "ems_error_code",
+                        "unit": null,
+                        "uuid": "4cb08b52697211ed8c910242c0a8c00c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "7a691212-d581-42bf-97dc-dfe615256872",
+                        "name": "modbus_status",
+                        "unit": null,
+                        "uuid": "4cb09688697211ed9cc10242c0a8c00c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "57b7b601-7a9f-48a6-9efd-fb307c9a5973",
+                        "name": "pcs2_dc_inverter_power",
+                        "unit": null,
+                        "uuid": "eda3b2026a1011eda7440242c0a8c00c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "fe9b88b3-70c4-471c-a239-fb08d72b5509",
+                        "name": "pcs3_dc_inverter_power",
+                        "unit": null,
+                        "uuid": "eda3b9dc6a1011ed89930242c0a8c00c"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "d4b3d175-db3f-436e-9caf-7213c411a942",
+                        "name": "flt_ppfs",
+                        "unit": null,
+                        "uuid": "ea6d7ee8ea3e11edb1710242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "f140c116-c1dd-44a9-9801-2a9609bb33e5",
+                        "name": "flt_pnfs",
+                        "unit": null,
+                        "uuid": "c38c1090ea4911edad650242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "b42e65b8-21d4-456b-bad2-be1eef8cc7d0",
+                        "name": "flt_spfs",
+                        "unit": null,
+                        "uuid": "c38c1946ea4911ed86730242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "848f4352-cca0-4fe5-ab20-925b0e6e2962",
+                        "name": "flt_snfs",
+                        "unit": null,
+                        "uuid": "c38c2314ea4911ed80d80242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "be369485-06e4-49f1-89aa-0e510d3b9cca",
+                        "name": "flt_dpfs",
+                        "unit": null,
+                        "uuid": "c38c2ac6ea4911edb7300242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "4613c52e-4045-45ce-96cc-8b0e8548f665",
+                        "name": "flt_dnfs",
+                        "unit": null,
+                        "uuid": "c38c37b4ea4911eda1f10242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "e02ce549-3ce1-465c-9de3-56065d7a6f0a",
+                        "name": "smoke_sensor2",
+                        "unit": null,
+                        "uuid": "c38c41e6ea4911ed985c0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "13d17611-20d5-4765-a828-d63435c823f2",
+                        "name": "k3_bkup_sys",
+                        "unit": null,
+                        "uuid": "c38c4902ea4911ed93c80242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "14e7e558-9847-4709-b840-a841acd7c941",
+                        "name": "k4_pri_pump_fb",
+                        "unit": null,
+                        "uuid": "c38c50c8ea4911ed991d0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "c81b92a7-9d5f-4bdc-8179-4c3811bc36ed",
+                        "name": "k6_sec_pump_fb",
+                        "unit": null,
+                        "uuid": "c38c58b6ea4911edb7020242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "050bef80-c5a2-47bd-8792-b57a5ebb3804",
+                        "name": "k8_in_out_sfb",
+                        "unit": null,
+                        "uuid": "c38c6022ea4911edbd920242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "d42c99ae-bc55-467c-b5ec-a817bccc502d",
+                        "name": "k9_fan_light",
+                        "unit": null,
+                        "uuid": "c38c6766ea4911ed90980242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "c9adf4ef-ceb8-4f89-8e8a-e13998f2927d",
+                        "name": "k10_drain_fb",
+                        "unit": null,
+                        "uuid": "c38c7166ea4911edb5b40242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "d204e1ae-78a8-49e6-9645-27038b86f800",
+                        "name": "k13_chiller",
+                        "unit": null,
+                        "uuid": "c38d318cea4911ed94cd0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "17230202-7e59-49ba-8fc0-412c45884e55",
+                        "name": "level_sensor_pos",
+                        "unit": null,
+                        "uuid": "c38d3a06ea4911ed880b0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "af61a97a-0f74-4622-ad64-65ce61d537e2",
+                        "name": "level_sensor_neg",
+                        "unit": null,
+                        "uuid": "c38d426cea4911ed84100242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a71248d5-af68-43b8-b448-c1101034648a",
+                        "name": "bcu_hydrogen_sensor",
+                        "unit": null,
+                        "uuid": "c38d49ecea4911ed9ba70242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "74974847-7639-4fe4-a29f-a0e0e2949f65",
+                        "name": "bcu_ocv_2",
+                        "unit": null,
+                        "uuid": "c38d5194ea4911edb4370242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "45c226bd-0a1d-445e-820e-770dc8ae5541",
+                        "name": "backup_sys",
+                        "unit": null,
+                        "uuid": "c38d59a0ea4911eda2a90242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "8200aaa2-5b1b-4038-bd27-016ac2310f2a",
+                        "name": "primary_positive_pump",
+                        "unit": null,
+                        "uuid": "c38d61b6ea4911ed85f70242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "e1e9df0c-ad3c-4dd1-93ac-44f95f07a172",
+                        "name": "primary_negative_pump",
+                        "unit": null,
+                        "uuid": "c38d6cf6ea4911edadd70242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6b78f421-9d43-4a4b-bc39-c321bdb2e04b",
+                        "name": "secondary_positive_pump",
+                        "unit": null,
+                        "uuid": "c38d74daea4911ed9d650242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "4dc24861-4607-406b-bcb2-7ad340f37779",
+                        "name": "secondary_negative_pump",
+                        "unit": null,
+                        "uuid": "c38d7c1eea4911eda1f80242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "e4cc4a8c-db1d-484e-8de8-4af3baea2ee2",
+                        "name": "in_out_sensor_power_sup",
+                        "unit": null,
+                        "uuid": "c38d82e0ea4911eda09d0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "1c6b9d82-1daa-4701-9a53-c839de6081eb",
+                        "name": "pri_stack_cluster",
+                        "unit": null,
+                        "uuid": "c38d8970ea4911ed9de90242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "7be3b919-28fd-4cc8-8888-a3cbb1645056",
+                        "name": "sec_stack_cluster",
+                        "unit": null,
+                        "uuid": "c38d933eea4911ed95ba0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "9477c5c9-2f8a-4c99-98da-2a0aa75c6b37",
+                        "name": "actuator_valve_1",
+                        "unit": null,
+                        "uuid": "c38d9ba4ea4911edbd6c0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a2489ae2-9424-41bc-9b71-5d8db37bd286",
+                        "name": "actuator_valve_2",
+                        "unit": null,
+                        "uuid": "c38da32eea4911edbe990242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "3ca99b27-67d1-4a81-8303-813a8e1368ba",
+                        "name": "actuator_valve_3",
+                        "unit": null,
+                        "uuid": "c38daa72ea4911ed9a250242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "9a9eaeb6-dc05-40a9-bb33-1f3c3d9584bf",
+                        "name": "actuator_valve_4",
+                        "unit": null,
+                        "uuid": "c38db224ea4911ed8ed20242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "200a68a7-8a62-4341-ba39-8ca2428bfe6d",
+                        "name": "actuator_valve_5",
+                        "unit": null,
+                        "uuid": "c38db90eea4911eda8830242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a36f7a8c-3a2f-4a69-bb9e-310a558464c4",
+                        "name": "actuator_valve_6",
+                        "unit": null,
+                        "uuid": "c38dc142ea4911edab8d0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "a344eec4-6c47-4b8f-bd5f-1313302b2dbd",
+                        "name": "fan_light",
+                        "unit": null,
+                        "uuid": "c38dc872ea4911ed84840242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "4216f9c6-fa1c-4b4f-bd7d-e7919fef4549",
+                        "name": "drain_pump",
+                        "unit": null,
+                        "uuid": "c38dcf70ea4911ed9ac40242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "1fa0ce5f-5fc3-4e2d-af01-90204bd52f61",
+                        "name": "chiller",
+                        "unit": null,
+                        "uuid": "c38dd6f0ea4911edb77d0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "dba5abb7-2daa-48f7-8b7d-de3d7f95a271",
+                        "name": "state_of_charge",
+                        "unit": null,
+                        "uuid": "f239ab38ea4d11ed96600242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "2b68d49a-ee23-4a7f-90cd-634ffc2381bc",
+                        "name": "pcs1_dc_volts",
+                        "unit": null,
+                        "uuid": "fb559e24ea5311ed8e6c0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "b1f09c6b-9bd5-4fdc-97b0-094845159881",
+                        "name": "pcs1_dc_batt_current",
+                        "unit": null,
+                        "uuid": "fb55a3ecea5311edb1830242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "3c02d401-405c-4136-82b4-5f64031faa46",
+                        "name": "pcs_st_2",
+                        "unit": null,
+                        "uuid": "fb55a89cea5311ed85fb0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "b0344ea5-4cd4-46d6-8fbd-e523da6f2266",
+                        "name": "pcs_st_1",
+                        "unit": null,
+                        "uuid": "fb55ad06ea5311eda4dc0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "bf88a431-78b3-4341-a7b1-fa4a4c3dd4eb",
+                        "name": "react_pow_set",
+                        "unit": null,
+                        "uuid": "fb55b1d4ea5311ed8c7a0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "514ba1ac-90fa-400c-b548-a25f981dde27",
+                        "name": "act_pow_set",
+                        "unit": null,
+                        "uuid": "fb55b602ea5311edb71b0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "2048741a-a60c-49c1-840d-8f624e80f2c9",
+                        "name": "ems_status",
+                        "unit": null,
+                        "uuid": "fb55b9f4ea5311ed931b0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "66000920-781f-4d6b-b546-8ae7e8361d14",
+                        "name": "lvdc_current",
+                        "unit": null,
+                        "uuid": "fb55be0eea5311eda7cd0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "3f5cd41e-04d8-4895-9096-afa6286e1db7",
+                        "name": "lvdc_voltage",
+                        "unit": null,
+                        "uuid": "fb55c232ea5311edb8d50242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "d6b09afb-3025-4c18-ad53-63a1e773a47d",
+                        "name": "battery_ready",
+                        "unit": null,
+                        "uuid": "fb55c642ea5311edb42b0242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "49472e7e-6d12-481c-96db-ac3510d5027d",
+                        "name": "system_mode",
+                        "unit": null,
+                        "uuid": "fb55ca52ea5311eda3240242ac15000d"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "9d0f16c0-35e8-41be-af16-9f4df39d3b7d",
+                        "name": "rebalancing_valve",
+                        "unit": null,
+                        "uuid": "24159c60ea5411edbc2a0242ac15000d"
+                    }
+                ],
+                "project_id": 70,
+                "slug": "r-O-GrVeWGOf",
+                "uuid": "5b0d1a08eab611eb8b070242ac1d000b"
+            },
+            "sensor_type_id": 77,
+            "type": "Sensor"
+        },
+        {
+            "entities": [
+                {
+                    "data_type": "float",
+                    "id": "b620ead9-5d62-461b-a2a1-16e2b0c09b22",
+                    "name": "System_Mode",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "f6a2b448fc0c11eb9acb0242c0a8700b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "eeb450e8-2da1-456b-8f44-3bdf562a745e",
+                    "name": "System_Alarm_Status",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "f6a2bbf0fc0c11eb90850242c0a8700b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "8f3dd0cf-a991-4e65-a428-6a0a517b3ab0",
+                    "name": "BCU_Mode_Status",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "f6a2c136fc0c11eb94c20242c0a8700b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "7cd85cd3-41dd-4220-b4e6-213665ac0225",
+                    "name": "BCU_Hydrogen_Sensor",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "f6a2c5f0fc0c11ebacf70242c0a8700b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "966b9297-8c20-4da3-85c7-8ac201814f32",
+                    "name": "Battery001_PSPD1",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "f6a2cab4fc0c11eb91690242c0a8700b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "36ed9b48-0aff-4602-8274-a42fc7073a44",
+                    "name": "PCS1_dc_volts",
+                    "type": "SensorParameter",
+                    "unit": "V",
+                    "uuid": "f6a2cf64fc0c11ebaa780242c0a8700b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "6d018566-e639-4533-a6da-bdcbb8c4b96d",
+                    "name": "PCS1_dc_batt_current",
+                    "type": "SensorParameter",
+                    "unit": "A",
+                    "uuid": "f6a2d572fc0c11ebb0db0242c0a8700b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "2b3ca2c2-9057-427d-8b2a-cf007b733805",
+                    "name": "PCS1_dc_inverter_power",
+                    "type": "SensorParameter",
+                    "unit": "kW",
+                    "uuid": "f6a2da5efc0c11ebbf540242c0a8700b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "e04b4769-dfe2-4c48-9df3-83bc373c079c",
+                    "name": "charge_level",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "f352670efead11eb929d0242ac13000b"
+                },
+                {
+                    "data_type": "float",
+                    "id": "155829e4-3ecf-416e-99e3-b17d818e2562",
+                    "name": "PVStat",
+                    "type": "SensorParameter",
+                    "unit": null,
+                    "uuid": "dbf6e094777f11eca4c70242ac12000c"
+                }
+            ],
+            "id": 958,
+            "metadata": [
+                {
+                    "data_type": "float",
+                    "id": "d33d8956-a537-4baf-b94f-4cf6e9a76853",
+                    "name": "Power Capacity ",
+                    "unit": "kW",
+                    "uuid": "8c00bd76543d11eda6f80242c0a8300c",
+                    "value": null
+                },
+                {
+                    "data_type": "string",
+                    "id": "ae72fb48-5643-46ce-8ddf-a71622685bad",
+                    "name": "Serial Number",
+                    "unit": null,
+                    "uuid": "8c00c906543d11ed82930242c0a8300c",
+                    "value": null
+                }
+            ],
+            "name": "5kW_BCU_Sensors_0",
+            "parent_id": 195,
+            "parent_type": "Asset",
+            "sensor_type": {
+                "description": "5kW system",
+                "generated_by": "user",
+                "id": 86,
+                "metadata": [
+                    {
+                        "data_type": "string",
+                        "id": "24d8487d-89b1-44c2-b244-915be4fd6af5",
+                        "name": "Serial Number",
+                        "unit": null,
+                        "uuid": "f6a2df90fc0c11eb93aa0242c0a8700b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "48e99f60-7116-45ff-b27e-8f0a91489038",
+                        "name": "Power Capacity ",
+                        "unit": "kW",
+                        "uuid": "f6a2e63efc0c11eb8c470242c0a8700b"
+                    }
+                ],
+                "name": "VFLOW_5kW_Sensor_Type",
+                "org_id": 3,
+                "parameters": [
+                    {
+                        "data_type": "float",
+                        "id": "b620ead9-5d62-461b-a2a1-16e2b0c09b22",
+                        "name": "System_Mode",
+                        "unit": null,
+                        "uuid": "f6a2b448fc0c11eb9acb0242c0a8700b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "eeb450e8-2da1-456b-8f44-3bdf562a745e",
+                        "name": "System_Alarm_Status",
+                        "unit": null,
+                        "uuid": "f6a2bbf0fc0c11eb90850242c0a8700b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "8f3dd0cf-a991-4e65-a428-6a0a517b3ab0",
+                        "name": "BCU_Mode_Status",
+                        "unit": null,
+                        "uuid": "f6a2c136fc0c11eb94c20242c0a8700b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "7cd85cd3-41dd-4220-b4e6-213665ac0225",
+                        "name": "BCU_Hydrogen_Sensor",
+                        "unit": null,
+                        "uuid": "f6a2c5f0fc0c11ebacf70242c0a8700b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "966b9297-8c20-4da3-85c7-8ac201814f32",
+                        "name": "Battery001_PSPD1",
+                        "unit": null,
+                        "uuid": "f6a2cab4fc0c11eb91690242c0a8700b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "36ed9b48-0aff-4602-8274-a42fc7073a44",
+                        "name": "PCS1_dc_volts",
+                        "unit": "V",
+                        "uuid": "f6a2cf64fc0c11ebaa780242c0a8700b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "6d018566-e639-4533-a6da-bdcbb8c4b96d",
+                        "name": "PCS1_dc_batt_current",
+                        "unit": "A",
+                        "uuid": "f6a2d572fc0c11ebb0db0242c0a8700b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "2b3ca2c2-9057-427d-8b2a-cf007b733805",
+                        "name": "PCS1_dc_inverter_power",
+                        "unit": "kW",
+                        "uuid": "f6a2da5efc0c11ebbf540242c0a8700b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "e04b4769-dfe2-4c48-9df3-83bc373c079c",
+                        "name": "charge_level",
+                        "unit": null,
+                        "uuid": "f352670efead11eb929d0242ac13000b"
+                    },
+                    {
+                        "data_type": "float",
+                        "id": "155829e4-3ecf-416e-99e3-b17d818e2562",
+                        "name": "PVStat",
+                        "unit": null,
+                        "uuid": "dbf6e094777f11eca4c70242ac12000c"
+                    }
+                ],
+                "project_id": 70,
+                "slug": "06rZJFQ8zML",
+                "uuid": "c79a6fc8fa9b11eb81330242c0a8700b"
+            },
+            "sensor_type_id": 86,
+            "type": "Sensor"
+        }
+    ],
+    "id": 195,
+    "mapped_parameters": [
+        {
+            "name": "bcu1LeakageSensor",
+            "parameter_uuid": "366dba5e979b11ebabe50242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "bcu1SmokeSensor",
+            "parameter_uuid": "366dc120979b11eb9e800242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "pcs1ACOutStatus",
+            "parameter_uuid": "366dc634979b11eba2900242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "pcs1FaultStatus",
+            "parameter_uuid": "366dcaee979b11eba0470242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "pcs1FanSpeed",
+            "parameter_uuid": "366dcf76979b11eb92a10242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "positive_stack_pressure_delta",
+            "parameter_uuid": "366dd3a4979b11ebbc080242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "primary_charging_relay",
+            "parameter_uuid": "366dd840979b11eba99c0242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "primary_discharge_relay",
+            "parameter_uuid": "366ddc46979b11eb8a870242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "sensor_temp",
+            "parameter_uuid": "366de0ec979b11ebb9ea0242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "humidity",
+            "parameter_uuid": "366de4f2979b11eb94180242c0a8c00b",
+            "sensor_type_uuid": "63ce991c8d3411eb9b970242c0a8c00b",
+            "sensor_uuid": "55f283d6bc4a11eb9fc30242ac1a000b"
+        },
+        {
+            "name": "bcu_voltage",
+            "parameter_uuid": "19f6caa06b8b11eb85bc0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "bcu_current",
+            "parameter_uuid": "19f6d1a86b8b11eb89c90242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "bcu_power",
+            "parameter_uuid": "19f6d7a26b8b11eb9b5e0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "bcu_state_of_charge",
+            "parameter_uuid": "19f6dcb66b8b11eb8a8e0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "battery_voltage",
+            "parameter_uuid": "19f6e1166b8b11eb849d0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "bcu_OCV",
+            "parameter_uuid": "19f6e5a86b8b11eba3a70242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "bcu_pos_tank_temp",
+            "parameter_uuid": "19f6ea3a6b8b11eb89860242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "bcu_neg-tank_temp",
+            "parameter_uuid": "19f6ee546b8b11eb88430242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pos_high level_float",
+            "parameter_uuid": "19f6f3546b8b11eb8c390242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "neg_high level_float",
+            "parameter_uuid": "19f6f78c6b8b11eb94b40242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pos_low level_float",
+            "parameter_uuid": "19f6fbec6b8b11eb98b00242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "neg_low level_float",
+            "parameter_uuid": "19f700ec6b8b11eb93030242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pri_stack_voltage",
+            "parameter_uuid": "19f7051a6b8b11eb962f0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pri_stack_current",
+            "parameter_uuid": "19f7090c6b8b11eb9f200242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pri_stack_pos_pressure",
+            "parameter_uuid": "19f70eca6b8b11ebbd470242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pri_stack_neg_pressure",
+            "parameter_uuid": "19f7133e6b8b11eba4130242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pri_stack_pressure_delta",
+            "parameter_uuid": "19f717a86b8b11eba2df0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "sec_stack_voltage",
+            "parameter_uuid": "19f7202c6b8b11eb8ecc0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "sec_stack_current",
+            "parameter_uuid": "19f7254a6b8b11eb937c0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "sec_stack_pos_pressure",
+            "parameter_uuid": "19f729826b8b11eb94b80242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "sec_stack_neg_pressure",
+            "parameter_uuid": "19f72d7e6b8b11ebaae60242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "sec_stack_pressure_delta",
+            "parameter_uuid": "19f732386b8b11eb8f900242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs1_voltage",
+            "parameter_uuid": "19f737106b8b11eb82a40242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs1_current",
+            "parameter_uuid": "19f73c9c6b8b11eb95fc0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs1_reactive_power",
+            "parameter_uuid": "19f7444e6b8b11eb89f20242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs1_load_power",
+            "parameter_uuid": "19f749626b8b11eba91b0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs1_ac_supply_power",
+            "parameter_uuid": "19f74e766b8b11eb8d800242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs2_voltage",
+            "parameter_uuid": "19f754346b8b11eb947c0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs2_current",
+            "parameter_uuid": "19f758586b8b11ebb03d0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs2_reactive_power",
+            "parameter_uuid": "19f75cea6b8b11ebb9b40242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs2_load_power",
+            "parameter_uuid": "19f761866b8b11ebbe4b0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs2_ac_supply_power",
+            "parameter_uuid": "19f765f06b8b11ebbe890242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs3_voltage",
+            "parameter_uuid": "19f76aa06b8b11eb92fe0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs3_current",
+            "parameter_uuid": "19f770726b8b11eb954a0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs3_reactive_power",
+            "parameter_uuid": "19f775366b8b11ebbf900242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs3_load_power",
+            "parameter_uuid": "19f7793c6b8b11ebb0460242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pcs3_ac_supply_power",
+            "parameter_uuid": "19f77d886b8b11eb92450242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pri_stack_charge",
+            "parameter_uuid": "19f781f26b8b11eb8f500242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pri_stack_discharge",
+            "parameter_uuid": "19f786e86b8b11eb8ec40242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pri_stack_positive_pump",
+            "parameter_uuid": "19f78c2e6b8b11eb8b9c0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pri_stack_negative_pump",
+            "parameter_uuid": "19f7911a6b8b11ebb2440242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "sec_stack_charge",
+            "parameter_uuid": "19f7953e6b8b11ebb2590242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "sec_stack_discharge",
+            "parameter_uuid": "19f799946b8b11ebb0690242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "sec_stack_positive_pump",
+            "parameter_uuid": "19f79d726b8b11eba6540242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "sec_stack_negative_pump",
+            "parameter_uuid": "19f7a1966b8b11eb9c380242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "bal_valve",
+            "parameter_uuid": "19f7a5ba6b8b11eba20b0242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "pos_tank_valve",
+            "parameter_uuid": "19f7ac226b8b11eb84690242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "neg_tank_valve",
+            "parameter_uuid": "19f7b1a46b8b11eba6b50242ac1b000b",
+            "sensor_type_uuid": "6f476d5e6b8911eb8d8b0242ac1b000b",
+            "sensor_uuid": "863a99626b8b11eb86f20242ac1b000b"
+        },
+        {
+            "name": "bcu1LeakageSensor",
+            "parameter_uuid": "0ffe3c6eeaba11ebb5b80242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu1SmokeSensor",
+            "parameter_uuid": "0ffe43eeeaba11ebae550242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1ACOutStatus",
+            "parameter_uuid": "0ffe4984eaba11eb83960242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1FaultStatus",
+            "parameter_uuid": "0ffe4e84eaba11ebbdfc0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1FanSpeed",
+            "parameter_uuid": "0ffe52f8eaba11eb928e0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "positive_stack_pressure_delta",
+            "parameter_uuid": "0ffe5884eaba11eb88f80242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "primary_charging_relay",
+            "parameter_uuid": "0ffe5d5ceaba11eb9c020242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "primary_discharge_relay",
+            "parameter_uuid": "0ffe625ceaba11eb90110242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sensor_temp",
+            "parameter_uuid": "0ffe6784eaba11eb88bd0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "humidity",
+            "parameter_uuid": "0ffe6d60eaba11ebb0650242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_voltage",
+            "parameter_uuid": "0ffe71f2eaba11eb9c640242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_current",
+            "parameter_uuid": "0ffe7af8eaba11ebb93f0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_power",
+            "parameter_uuid": "0ffe805ceaba11ebab510242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_state_of_charge",
+            "parameter_uuid": "0ffe84f8eaba11ebb1e00242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "battery_voltage",
+            "parameter_uuid": "0ffe893aeaba11eb99040242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_OCV",
+            "parameter_uuid": "0ffe8d54eaba11eba2a00242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_pos_tank_temp",
+            "parameter_uuid": "0ffe925eeaba11eb9cf30242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_neg_tank_temp",
+            "parameter_uuid": "0ffe9664eaba11eb82060242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pos_high_level_float",
+            "parameter_uuid": "0ffe9aeceaba11eb99220242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "neg_high_level_float",
+            "parameter_uuid": "0ffe9f42eaba11ebb42a0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pos_low_level_float",
+            "parameter_uuid": "0ffea3a2eaba11eb88fd0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "neg_low_level_float",
+            "parameter_uuid": "0ffea7daeaba11ebb55c0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_voltage",
+            "parameter_uuid": "0ffeac08eaba11eb8b990242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_current",
+            "parameter_uuid": "0ffeb00eeaba11ebbb530242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_pos_pressure",
+            "parameter_uuid": "0ffeb518eaba11ebb7e80242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_neg_pressure",
+            "parameter_uuid": "0ffeb946eaba11eb9eb60242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_pressure_delta",
+            "parameter_uuid": "0ffebd74eaba11ebb9380242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_voltage",
+            "parameter_uuid": "0ffec224eaba11ebba370242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_current",
+            "parameter_uuid": "0ffec68eeaba11eb97dd0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_pos_pressure",
+            "parameter_uuid": "0ffecab2eaba11ebab760242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_neg_pressure",
+            "parameter_uuid": "0ffeceaeeaba11eb9aa30242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_pressure_delta",
+            "parameter_uuid": "0ffed2e6eaba11eb96240242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1_voltage",
+            "parameter_uuid": "0ffed746eaba11eba28f0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1_current",
+            "parameter_uuid": "0ffedbeceaba11ebbdd50242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1_reactive_power",
+            "parameter_uuid": "0ffee010eaba11eba7e90242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1_load_power",
+            "parameter_uuid": "0ffee86ceaba11eb87930242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1_ac_supply_power",
+            "parameter_uuid": "0ffeeedeeaba11eb9e910242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs2_voltage",
+            "parameter_uuid": "0ffef7a8eaba11eb88120242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs2_current",
+            "parameter_uuid": "0ffeff78eaba11ebba9a0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs2_reactive_power",
+            "parameter_uuid": "0fff05f4eaba11ebb69a0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs2_load_power",
+            "parameter_uuid": "0fff0aeaeaba11eb8cfe0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs2_ac_supply_power",
+            "parameter_uuid": "0fff1030eaba11ebab7a0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs3_voltage",
+            "parameter_uuid": "0fff1440eaba11eba6ac0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs3_current",
+            "parameter_uuid": "0fff183ceaba11eb8d900242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs3_reactive_power",
+            "parameter_uuid": "0fff1c56eaba11eb8d780242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs3_load_power",
+            "parameter_uuid": "0fff20c0eaba11ebaf6b0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs3_ac_supply_power",
+            "parameter_uuid": "0fff24daeaba11ebbf790242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_charge",
+            "parameter_uuid": "0fff28f4eaba11ebb69f0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_discharge",
+            "parameter_uuid": "0fff2cfaeaba11eb9cb30242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_positive_pump",
+            "parameter_uuid": "0fff3146eaba11ebb8710242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_negative_pump",
+            "parameter_uuid": "0fff35d8eaba11eb89b10242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_charge",
+            "parameter_uuid": "0fff39fceaba11eb8a3f0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_discharge",
+            "parameter_uuid": "0fff3df8eaba11ebabfb0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_positive_pump",
+            "parameter_uuid": "0fff41eaeaba11eb9c040242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_negative_pump",
+            "parameter_uuid": "0fff464aeaba11ebb3c90242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bal_valve",
+            "parameter_uuid": "0fff4a6eeaba11eba70c0242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pos_tank_valve",
+            "parameter_uuid": "0fff4e74eaba11eb8c310242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "neg_tank_value",
+            "parameter_uuid": "0fff5284eaba11ebae220242ac1d000b",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1_ac_power",
+            "parameter_uuid": "8adfbe1e5c0e11ed94e40242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "dc_main_contactor",
+            "parameter_uuid": "a67ca7f25c1011ed9f090242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pre_charge_relay",
+            "parameter_uuid": "a67cb0445c1011ed92a00242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "ac_fan_coil1",
+            "parameter_uuid": "a67cb7065c1011edbfde0242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "fluid_fan",
+            "parameter_uuid": "a67cbe905c1011edb05e0242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "dcdb_fan",
+            "parameter_uuid": "a67cc4125c1011ed8ece0242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "stk_contactor1",
+            "parameter_uuid": "a67cc9805c1011ed85e20242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "stk_contactor2",
+            "parameter_uuid": "a67cceb25c1011ed95c00242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1InvFreq",
+            "parameter_uuid": "a67cd4025c1011ed88b60242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_leakage_sensor2",
+            "parameter_uuid": "ba2520405c1011ed80660242c0a8500c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "ems_error_code",
+            "parameter_uuid": "4cb08b52697211ed8c910242c0a8c00c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "modbus_status",
+            "parameter_uuid": "4cb09688697211ed9cc10242c0a8c00c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs2_dc_inverter_power",
+            "parameter_uuid": "eda3b2026a1011eda7440242c0a8c00c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs3_dc_inverter_power",
+            "parameter_uuid": "eda3b9dc6a1011ed89930242c0a8c00c",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "flt_ppfs",
+            "parameter_uuid": "ea6d7ee8ea3e11edb1710242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "flt_pnfs",
+            "parameter_uuid": "c38c1090ea4911edad650242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "flt_spfs",
+            "parameter_uuid": "c38c1946ea4911ed86730242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "flt_snfs",
+            "parameter_uuid": "c38c2314ea4911ed80d80242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "flt_dpfs",
+            "parameter_uuid": "c38c2ac6ea4911edb7300242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "flt_dnfs",
+            "parameter_uuid": "c38c37b4ea4911eda1f10242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "smoke_sensor2",
+            "parameter_uuid": "c38c41e6ea4911ed985c0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "k3_bkup_sys",
+            "parameter_uuid": "c38c4902ea4911ed93c80242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "k4_pri_pump_fb",
+            "parameter_uuid": "c38c50c8ea4911ed991d0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "k6_sec_pump_fb",
+            "parameter_uuid": "c38c58b6ea4911edb7020242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "k8_in_out_sfb",
+            "parameter_uuid": "c38c6022ea4911edbd920242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "k9_fan_light",
+            "parameter_uuid": "c38c6766ea4911ed90980242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "k10_drain_fb",
+            "parameter_uuid": "c38c7166ea4911edb5b40242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "k13_chiller",
+            "parameter_uuid": "c38d318cea4911ed94cd0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "level_sensor_pos",
+            "parameter_uuid": "c38d3a06ea4911ed880b0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "level_sensor_neg",
+            "parameter_uuid": "c38d426cea4911ed84100242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_hydrogen_sensor",
+            "parameter_uuid": "c38d49ecea4911ed9ba70242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "bcu_ocv_2",
+            "parameter_uuid": "c38d5194ea4911edb4370242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "backup_sys",
+            "parameter_uuid": "c38d59a0ea4911eda2a90242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "primary_positive_pump",
+            "parameter_uuid": "c38d61b6ea4911ed85f70242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "primary_negative_pump",
+            "parameter_uuid": "c38d6cf6ea4911edadd70242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "secondary_positive_pump",
+            "parameter_uuid": "c38d74daea4911ed9d650242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "secondary_negative_pump",
+            "parameter_uuid": "c38d7c1eea4911eda1f80242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "in_out_sensor_power_sup",
+            "parameter_uuid": "c38d82e0ea4911eda09d0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pri_stack_cluster",
+            "parameter_uuid": "c38d8970ea4911ed9de90242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "sec_stack_cluster",
+            "parameter_uuid": "c38d933eea4911ed95ba0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "actuator_valve_1",
+            "parameter_uuid": "c38d9ba4ea4911edbd6c0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "actuator_valve_2",
+            "parameter_uuid": "c38da32eea4911edbe990242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "actuator_valve_3",
+            "parameter_uuid": "c38daa72ea4911ed9a250242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "actuator_valve_4",
+            "parameter_uuid": "c38db224ea4911ed8ed20242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "actuator_valve_5",
+            "parameter_uuid": "c38db90eea4911eda8830242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "actuator_valve_6",
+            "parameter_uuid": "c38dc142ea4911edab8d0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "fan_light",
+            "parameter_uuid": "c38dc872ea4911ed84840242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "drain_pump",
+            "parameter_uuid": "c38dcf70ea4911ed9ac40242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "chiller",
+            "parameter_uuid": "c38dd6f0ea4911edb77d0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "state_of_charge",
+            "parameter_uuid": "f239ab38ea4d11ed96600242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1_dc_volts",
+            "parameter_uuid": "fb559e24ea5311ed8e6c0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs1_dc_batt_current",
+            "parameter_uuid": "fb55a3ecea5311edb1830242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs_st_2",
+            "parameter_uuid": "fb55a89cea5311ed85fb0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "pcs_st_1",
+            "parameter_uuid": "fb55ad06ea5311eda4dc0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "react_pow_set",
+            "parameter_uuid": "fb55b1d4ea5311ed8c7a0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "act_pow_set",
+            "parameter_uuid": "fb55b602ea5311edb71b0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "ems_status",
+            "parameter_uuid": "fb55b9f4ea5311ed931b0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "lvdc_current",
+            "parameter_uuid": "fb55be0eea5311eda7cd0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "lvdc_voltage",
+            "parameter_uuid": "fb55c232ea5311edb8d50242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "battery_ready",
+            "parameter_uuid": "fb55c642ea5311edb42b0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "system_mode",
+            "parameter_uuid": "fb55ca52ea5311eda3240242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "rebalancing_valve",
+            "parameter_uuid": "24159c60ea5411edbc2a0242ac15000d",
+            "sensor_type_uuid": "5b0d1a08eab611eb8b070242ac1d000b",
+            "sensor_uuid": "13403baa543d11edb7df0242c0a8300c"
+        },
+        {
+            "name": "System_Mode",
+            "parameter_uuid": "f6a2b448fc0c11eb9acb0242c0a8700b",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        },
+        {
+            "name": "System_Alarm_Status",
+            "parameter_uuid": "f6a2bbf0fc0c11eb90850242c0a8700b",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        },
+        {
+            "name": "BCU_Mode_Status",
+            "parameter_uuid": "f6a2c136fc0c11eb94c20242c0a8700b",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        },
+        {
+            "name": "BCU_Hydrogen_Sensor",
+            "parameter_uuid": "f6a2c5f0fc0c11ebacf70242c0a8700b",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        },
+        {
+            "name": "Battery001_PSPD1",
+            "parameter_uuid": "f6a2cab4fc0c11eb91690242c0a8700b",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        },
+        {
+            "name": "PCS1_dc_volts",
+            "parameter_uuid": "f6a2cf64fc0c11ebaa780242c0a8700b",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        },
+        {
+            "name": "PCS1_dc_batt_current",
+            "parameter_uuid": "f6a2d572fc0c11ebb0db0242c0a8700b",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        },
+        {
+            "name": "PCS1_dc_inverter_power",
+            "parameter_uuid": "f6a2da5efc0c11ebbf540242c0a8700b",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        },
+        {
+            "name": "charge_level",
+            "parameter_uuid": "f352670efead11eb929d0242ac13000b",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        },
+        {
+            "name": "PVStat",
+            "parameter_uuid": "dbf6e094777f11eca4c70242ac12000c",
+            "sensor_type_uuid": "c79a6fc8fa9b11eb81330242c0a8700b",
+            "sensor_uuid": "8c00d388543d11ed81df0242c0a8300c"
+        }
+    ],
+    "metadata": [
+        {
+            "data_type": "string",
+            "id": "363fc8dc-e45d-4f8d-aa30-cd4f47bf7826",
+            "name": "Power Capacity",
+            "unit": null,
+            "uuid": "11cc6b90543d11edb1840242c0a8300c",
+            "value": "100kw"
+        },
+        {
+            "data_type": "string",
+            "id": "43bc9dd8-a32a-47e8-845a-0e59d854b13c",
+            "name": "Width",
+            "unit": null,
+            "uuid": "11cc8080543d11ed99fa0242c0a8300c",
+            "value": "20"
+        },
+        {
+            "data_type": "string",
+            "id": "52b85233-f844-46e0-90da-1b87bc48c945",
+            "name": "Height",
+            "unit": null,
+            "uuid": "11cc87a6543d11edaa700242c0a8300c",
+            "value": "10"
+        },
+        {
+            "data_type": "string",
+            "id": "beb44a8e-572d-4fad-bd28-3260592f4679",
+            "name": "Serial Number",
+            "unit": null,
+            "uuid": "11cc8ee0543d11ed938d0242c0a8300c",
+            "value": "abc1234"
+        }
+    ],
+    "name": "VSUN 5-30 V1",
+    "parent_id": null,
+    "properties": [],
+    "type": "Asset",
+    "uuid": "322477f26b8711eb8e920242ac1b000b"
+}

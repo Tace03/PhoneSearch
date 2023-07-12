@@ -1,0 +1,31 @@
+{
+  "name": "sk-vue-test",
+  "version": "1.07.03",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@sentry/profiling-node": "^1.0.4",
+    "@sentry/vue": "^7.55.2",
+    "@vuepic/vue-datepicker": "^5.1.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue-3": "^0.5.1",
+    "dropd-component": "^1.0.1",
+    "vite-plugin-sentry": "^1.3.0",
+    "vue": "^3.2.47",
+    "vue-ctk-date-time-picker": "^3.0.0-alpha.0",
+    "vue-excel-xlsx": "^1.2.2",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/xlsx": "^0.0.36",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "dotenv": "^16.1.4",
+    "netlify-plugin-inline-source": "^1.0.4",
+    "vite": "^4.4.2"
+  }
+}

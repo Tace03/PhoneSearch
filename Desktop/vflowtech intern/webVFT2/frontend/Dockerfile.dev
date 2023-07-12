@@ -1,0 +1,18 @@
+# Stage 1: Build the Vue app
+FROM node:18.14.2-slim as build-stage
+ENV HOST=0.0.0.0
+WORKDIR /frontend
+
+# Copy package.json and package-lock.json to the container
+COPY package.json ./
+
+# Copy the entire Vue app to the container
+COPY . /frontend
+
+# Install dependencies
+RUN npm install
+
+CMD ["npm", "run", "serve"]
+
+# # Expose port 80
+EXPOSE 8080

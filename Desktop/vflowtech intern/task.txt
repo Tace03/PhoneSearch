@@ -1,0 +1,24 @@
+repodownload.zip -> extract, local build on this, execute
+
+familiar with main.js, app.vue
+sentry's functions
+
+Familiarise on pipeline yml
+
+check with sin kiat about netlify deploy
+
+
+----
+create new repo
+automated script bitbucket code copy into new repo
+create pipeline to build
+-----
+
+try simple vuejs project
+
+
+
+
+
+
+

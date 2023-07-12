@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  frontend-dev:
+    container_name: vue-dev
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    ports:
+      - 8080:8080
+    volumes:
+      - ./frontend:/frontend
+      - /frontend/node_modules
+    stdin_open: true
+    tty: true
+    environment: 
+      - CHOKIDAR_USEPOLLING=true
+  frontend-prod:
+    container_name: vue-prod
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.prod
+    ports:
+      - 80:80
+    restart: unless-stopped
+  backend:
+    container_name: python-app
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/backend
+    ports:
+      - 5000:5000
